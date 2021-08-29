@@ -1,7 +1,11 @@
 import strutils
-import std/os
 
-let file = open("./grub.cfg", fmReadWriteExisting)
+echo "please input your grub.cfg path(default: /boot/grub/grub.cfg):"
+let input = readLine(stdin)
+var path = "/boot/grub/grub.cfg"
+if input != "":
+  path = input
+let file = open(path, fmReadWriteExisting)
 var content = file.readAll()
 content = replace(content, "### END /etc/grub.d/00_header ###", """### END /etc/grub.d/00_header ###
 menuentry fuckGRUB {
@@ -11,3 +15,4 @@ menuentry fuckGRUB {
 }""")
 file.write(content)
 file.close()
+echo "FINISH!"
