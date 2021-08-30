@@ -9,7 +9,7 @@ This is a **GREAT** program to fuck your GRUB configure
 ### Dependencies
 - make
 - nim
-### Linux & macOS
+### Linux
 Just use
 
 ```shell
@@ -18,16 +18,8 @@ sudo make install
 
 then,  `FuckGRUB` will automatically be installed in `/usr/bin/fuckGRUB`.
 
-### Windows
-Use 
-
-nim in cmd to compile `src/main.nim` and run it.
-
-### Android Termux
-Like Windows, use nim to compile `src/main.nim` and run it.
-
 ## Uninstallation
-### Linux & macOS
+### Linux
 Use
 
 ```shell
