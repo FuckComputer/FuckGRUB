@@ -2,7 +2,7 @@
 > 
 > -- Chi_Tang
 
-# FuckMemory
+# FuckGRUB
 This is a **GREAT** program to fuck your GRUB configure
 
 ## Installation
