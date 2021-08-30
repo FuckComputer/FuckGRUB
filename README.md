@@ -16,7 +16,7 @@ Just use
 sudo make install
 ```
 
-then,  `FuckGRUB` will automatically be installed in `/usr/bin/fuckGRUB`.
+then,  `FuckGRUB` will automatically be installed in `/usr/bin/fuckgrub`.
 
 ## Uninstallation
 ### Linux
